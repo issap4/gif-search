@@ -1,0 +1,46 @@
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+form{
+    border-radius: 5pt;
+    background-color: white;
+    color: black;
+    min-height: max-content;
+    min-width: max-content;
+    padding: 5px;
+    width: 200pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 100%;
+    width: 85%;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    margin-left: 10pt;
+}
+input:focus {
+    outline: none;
+}
+
+.bar{
+    height: max-content;
+}
+
+.lupa{
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg {
+    background-color: white;
+}
